@@ -34,12 +34,6 @@ header{
     font-size:medium;
     
 } */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button 
-{
-    -webkit-appearance: none;
-    margin: 0;
-  }
 
 #tela{
     text-align: right;
@@ -51,6 +45,7 @@ input[type="number"]::-webkit-outer-spin-button
     border-radius: 5px;
     font-weight: bold;
     font-size:medium;
+    padding-right: 15px;
 }
 #keyboard{
     display: flex;
