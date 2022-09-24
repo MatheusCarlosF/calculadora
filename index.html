@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section id="display">
+        <input type="text" name="tela" id="tela" value="" disabled>
+    </section>
+    <section id="keyboard">
+        <div id="first-line">
+            <input type="button" value="DEL" id="del" onclick="del()">
+            <input type="button" value="9" id="9"  onclick="pegaValor(this.value)">
+            <input type="button" value="8" id="8"  onclick="pegaValor(this.value)">
+            <input type="button" value="7" id="7"  onclick="pegaValor(this.value)">
+            
+        </div>
+        <div id="second-line">
+            <input type="button" value="+" id="mais" onclick="setOperator(this.value)">
+            <input type="button" value="6" id="6"  onclick="pegaValor(this.value)">
+            <input type="button" value="5" id="5"  onclick="pegaValor(this.value)">
+            <input type="button" value="4" id="4"  onclick="pegaValor(this.value)">
+            
+        </div>
+        <div id="third-line">
+            <input type="button" value="-" id="menos" onclick="setOperator(this.value)">
+            <input type="button" value="3" id="3"  onclick="pegaValor(this.value)">
+            <input type="button" value="2" id="2"  onclick="pegaValor(this.value)">
+            <input type="button" value="1" id="1"  onclick="pegaValor(this.value)">
+            
+        </div>
+        <div id="fourth-line">
+            <input type="button" value="*" id="x" onclick="setOperator(this.value)">
+            <input type="button" value="/" id="barra" onclick="setOperator(this.value)">
+            <input type="button" value="0" id="0"  onclick="pegaValor(this.value)">
+            <input type="button" value="." id="ponto" onclick="pegaValor(this.value)">
+            
+        </div>
+        <div id="fifth-line">
+            <input type="button" value="RESET" id="reset" onclick="reset()">
+            <input type="button" value="=" id="igual" onclick="resultado()">
+        
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
