@@ -97,3 +97,9 @@ input{
     color: white;
 
 }
+footer{
+    padding-top: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: 8pt;
+}
