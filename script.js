@@ -1,7 +1,7 @@
 var res = false
 
 function pegaValor(value){
-    if(res && !isNaN(tela.value[tela.value.length-1])){
+    if(res && !isNaN(tela.value)){
         tela.value = ""
         res = !res
     }
