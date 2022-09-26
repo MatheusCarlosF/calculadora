@@ -5,7 +5,6 @@ function pegaValor(value){
         tela.value = ""
         res = !res
     }
-    
     tela.value += value  
 }
 
@@ -13,7 +12,6 @@ function setOperator(value){
     if(!isNaN(tela.value[tela.value.length-1])){
         tela.value += value  
     }
-    
 }
 
 function resultado(){
@@ -22,7 +20,6 @@ function resultado(){
         tela.value = resultado
         res = !res
     }
-   
 } 
 
 function del (){
